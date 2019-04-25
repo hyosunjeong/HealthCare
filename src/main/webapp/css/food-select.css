@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+	#food-section {
+	}
+	
+	#all-div {
+		display:flex;
+		flex-direction: row;
+		width: 100%;
+	}
+
+	#major-menudiv{
+		float: left;
+		width : 20%;
+		height: 780px;
+		font-size:15pt;
+		text-decoration: none;
+		display: flex;
+		flex-direction: column;
+		background-color: #dededc;
+		
+		
+	}
+	
+	#major-divtext {
+		text-align: center;
+		font-size: 15pt;
+		font-weight: bold;
+		margin-bottom: 10px;
+		background-color: #161f44;
+		color: white;
+		flex: 1;
+	}
+	
+	#major-cate {
+		overflow: scroll; 
+		overflow-x: hidden;
+		overflow-y: auto;
+		flex: 9;
+		text-align: center;
+		-ms-overflow-style: none;
+	}
+	
+	::-webkit-scrollbar {
+		display:none;
+	}
+	
+	.cate-name {
+		display: inline-block;
+		color: #220A40;
+		font-weight: bold;
+		margin: 12px 0px;
+	}
+
+	article{
+		display: flex;
+		flex-direction: column;
+		width : 100%;
+		height: 780px;
+	}
+
+	#minor-menu{
+		height: 600px;
+		overflow: scroll; 
+		overflow-x: hidden;
+		overflow-y: auto;
+		background-color: #dededc;
+		border-left: 3px solid #ccc;
+	}
+
+	#calcekcal{
+		display: flex;
+		flex-direction: row;
+		height: 130px;
+		border-top: 3px solid #ccc;
+		border-left: 3px solid #ccc;
+		color: green;
+		font-size: 13pt;
+		padding: 13px ;
+		background-color: #dededc;
+	}
+
+	#minor-menu td {
+		background-color: #b8d7d4;
+	}
+	
+	.calcekcal {
+		overflow: auto;
+		flex: 7;
+		padding-right: 10px;
+		font-weight: bold;
+		margin-right: 25px;
+	}
+	
+	.totalkcal {
+		flex: 1;
+		float:right;
+		color: red;
+		
+	}
+	
+	table {
+		width: 98%;
+		margin: 5px auto;
+	}
+	
+	td {
+		border: 1px solid #ccc;
+		text-align: center;
+		font-size: 12pt;
+		padding: 10px;
+	}
+	
+	#td-foodname {
+		color: black;
+		
+	}
+	
+	.selectfood {
+		display : inline-block;
+	}
+	
+	#T-kcal {
+		font-size: 20pt;
+		font-weight: bold;
+	}
+			
+	#calce-button {
+		height:50px;
+		width: 450px;
+		margin: 0px auto;
+		padding-top: 5px;
+		background-color: #dededc;
+		width:100%;
+		border-left: 3px solid #ccc;
+	}
+	
+	#button-confirm {
+		width: 50%;	
+		margin-left: 330px;
+		background-color: #333333;
+		color:white;
+		padding: 5px;
+	}
+
+	
